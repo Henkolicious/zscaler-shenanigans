@@ -8,8 +8,8 @@
 ## TL;DR
 
 1. Setup the http proxy environment variables in WSL `.bashrc`, lower case and capital case
-1.1 Proxy: `http://127.0.0.1:9000`
-1.2 `$ source .bashrc`
+- Proxy address: `http://127.0.0.1:9000`
+- `$ source .bashrc`
 2. Add the Zscaler CA certificate to the cert store
 3. Add proxy URL to docker desktop
 4. Enable `Add the *.docker.internal names to the host's /etc/hosts file (Requires password)` checkbox in `Settings > General`
