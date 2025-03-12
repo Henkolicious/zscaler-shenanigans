@@ -20,8 +20,8 @@
 
 1. Setup the http proxy environment variables in WSL `.bashrc`, lower case and capital case
 - From your CLI, open WSL by `$ wsl`
-- Edit your `.bashrc` and add these proxy settings
-  - Sample `$ sudo vim .bashrc`
+- Edit your `.bashrc` (your user folder `cd ~`) and add these proxy settings
+  - Sample `$ sudo vim ~/.bashrc`
 ```
 export HTTP_PROXY="http://127.0.0.1:9000"
 export http_proxy="http://127.0.0.1:9000"
