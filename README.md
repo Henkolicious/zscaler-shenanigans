@@ -65,7 +65,7 @@ xFNjavxrHmsH8jPHVvgc1VD0Opja0l/BRVauTrUaoW6tE+wFG5rEcPGS80jjHK4S
 pB5iDj2mUZH1T8lzYtuZy0ZPirxmtsk3135+CKNa2OCAhhFjE0xd
 -----END CERTIFICATE-----
 ```
-- Update the certificate store `$ update-ca-certificates`
+- Update the certificate store `$ sudo update-ca-certificates`
 - Now you should have the ZScaler certificate in `/etc/ssl/certs/zscaler.pem`
 
 3. Add proxy URL to docker desktop
