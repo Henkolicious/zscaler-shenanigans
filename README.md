@@ -33,7 +33,7 @@ export https_proxy="http://127.0.0.1:9000"
 ![Environment variables](/assets/envvars.png "Environment variables")
 
 2. Add the Zscaler CA certificate to the cert store
-- `$ sudo vim /usr/local/share/ca-certificates/zscalert.crt`
+- `$ sudo vim /usr/local/share/ca-certificates/zscaler.crt`
 - Most likley this certificate, or extract your own from your PC
 ```
 -----BEGIN CERTIFICATE-----
