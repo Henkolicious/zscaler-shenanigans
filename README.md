@@ -35,6 +35,9 @@ export https_proxy="http://127.0.0.1:9000"
 2. Add the Zscaler CA certificate to the cert store
 - `$ sudo vim /usr/local/share/ca-certificates/zscaler.crt`
 - Most likley this certificate, or extract your own from your PC
+- (Extract your own base64 cert from your PC via certmgr)
+![Certmanager](/assets/certmanager.png "Certmanager")
+- Sample
 ```
 -----BEGIN CERTIFICATE-----
 MIIE0zCCA7ugAwIBAgIJANu+mC2Jt3uTMA0GCSqGSIb3DQEBCwUAMIGhMQswCQYD
