@@ -4,6 +4,11 @@
 - Only tested for WSL Ubuntu 22.04.5 LTS
 - FAQ
   - The proxy address is to some ZScaler service on your host
+  - Step `#3` might be an issue, try to disable it and try again with docker
+
+Simple test:
+- If this works, everything should probably work
+- `$ docker pull hello-world`
 
 ## TL;DR
 
